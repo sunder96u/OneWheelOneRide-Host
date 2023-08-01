@@ -1,13 +1,119 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+#root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.87);
+    
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    height:100%vh;
+    width:100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  }
+
+  .main {
+    position: relative;
+    top: 150px;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    background-image: linear-gradient(to bottom, #291347, #261940, #241e37, #24212e, #242424);
+    color: rgba(255, 255, 255, 0.87);
+  }
+
+  .navbar-brand {
+      color: rgba(255, 255, 255, 0.87);
+  }
+
+  .nav-link {
+    color: rgba(255, 255, 255, 0.87)
+  }
+
+  .icon {
+    max-width: 125px;
+    max-height: 125px;
+  }
+
+  .iconSml {
+    max-width: 50px;
+    max-height: 75px;
+  }
+
+  .iconLrg {
+    max-width: 275px;
+    max-height: 275px;
+  }
+
+  .cardHeight {
+    height: 225px;
+    background-color: lightgray;
+  }
+
+  .cardDescription {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .cardReview {
+    max-width: 300px;
+    background-color: #261940;
+    color: white
+  }
+
+  .cardHome {
+    height: 400px;
+    margin: 15px;
+  }
+
+  .bcgrey {
+    background-color: lightgray;
+    padding: 15px;
+  }
+
+  .space {
+    margin: 10px;
+  }
+
+  .line {
+    border-bottom: darkgrey solid 1px;
+  }
+
+  .black {
+    color: black;
+  }
+
+  .thickLine {
+    border-bottom: black solid 3px;
+  }
+
+  .maxHeight {
+    max-height: 100px;
+  }
+
+  .invalid { 
+    color: firebrick;
+  }
+
+  .logo {
+    max-width: 300px;
+  }
